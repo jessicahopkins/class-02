@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+}
+
+header {
+    background: #e36414;
+    padding: 15pt;
+    text-align: center ;
+}
+
+header h1 {
+    color: purple;
+    font-size: 200%;
+}
+
+main {
+    margin: 30px;
+}
+
+p {
+    color: teal;
+    padding: 15pt;
+}
+
+h2 {
+    color: teal;
+    font-size: 150%;
+    padding: 15pt;
+}
+
+main ul {
+    color: teal;
+    list-style-type: initial;
+    padding: 15pt;
+}
+
+footer {
+    background: #e36414;
+    color: purple;
+    padding: 10pt;
+}
