@@ -64,23 +64,23 @@ cookingGuess = cookingGuess.toLowerCase();
 switch (cookingGuess) {
     case "yes":
         // console.log("Wrong - I hate to cook!");
-        alert("Wrong - I hate to cook!");
+        alert("Wrong " + name + " I hate to cook!");
         break;
     case "y":
         // console.log("Wrong - I hate to cook!");
-        alert("Wrong - I hate to cook!");
+        alert("Wrong " +name + " I hate to cook!");
         break;    
     case "no":
         // console.log("Correct - I hate to cook!");
-        alert("Correct - I hate to cook!");
+        alert("Correct " + name + " I hate to cook!");
         break;
     case "n":
         // console.log("Correct - I hate to cook!");
-        alert("Correct - I hate to cook!");
+        alert("Correct " + name + " I hate to cook!");
         break;    
     default:
         // console.log("Wrong");
-        alert("Wrong");
+        alert("Wrong " + name);
         break;        
 }
 
