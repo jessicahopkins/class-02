@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: beige;
+    background-color: honeydew;
 }
 
 header {
@@ -14,7 +18,15 @@ header h1 {
 }
 
 main {
-    margin: 30px;
+    margin: 20px;
+}
+
+img {
+  height: auto;
+}
+
+.center-image {
+text-align: center;
 }
 
 p {
@@ -22,16 +34,48 @@ p {
     padding: 15pt;
 }
 
-h2 {
-    color: teal;
-    font-size: 150%;
-    padding: 15pt;
+section {
+  margin-bottom: 15px;
+  width: 100%;
 }
 
-main ul {
+section div.container {
+  overflow:hidden;
+  width: 90%;
+}
+
+section div.aboutme {
+  float: left ;
+  width: 45%;
+}
+
+h2 {
+    color: purple;
+    font-size: 150%;
+    padding: 10pt;
+}
+
+ul {
     color: teal;
     list-style-type: initial;
-    padding: 15pt;
+}
+
+ul li {
+  margin-left: 40px ;
+}
+
+h3 {
+  color: purple;
+  padding: 10pt;
+}
+
+ol {
+  color: teal;
+}
+
+ol li {
+  margin-left: 40px;
+  list-style-type: decimal;
 }
 
 footer {
