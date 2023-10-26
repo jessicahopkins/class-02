@@ -33,6 +33,7 @@ married();
 
 // Question 2 - Do I have kids?
 
+function kids() {
 let kidsGuess = prompt('Do I have kids?');
 let normalizedKidsGuess = kidsGuess.toLowerCase();
 console.log(kidsGuess);
@@ -47,9 +48,13 @@ if( normalizedKidsGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+kids();
 
 // Question 3 - Do I have dogs?
 
+function dogs() {
 let dogGuess = prompt('Do I have dogs?');
 let normalizedDogGuess = dogGuess.toLowerCase();
 console.log(dogGuess);
@@ -64,9 +69,13 @@ if( normalizedDogGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+dogs();
 
 // Question 4 - Using switch statement - Do I like to cook?
 
+function cooking() {
 let cookingGuess = prompt('Do I like to cook?');
 cookingGuess = cookingGuess.toLowerCase();
 
@@ -92,6 +101,9 @@ default:
   alert('Wrong ' + name);
   break;
 }
+}
+
+cooking();
 
 // Question 5 - How old am I? - Using for loop (4 chances)
 //Correct age = 44
