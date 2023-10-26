@@ -1,12 +1,18 @@
 'use strict';
 // Ask for name
 
+function greeting() {
 let name = prompt('What is your name?');
 console.log(name);
 alert('Hello ' + name + ' welcome to my About Me page!');
 
+}
+
+greeting();
+
 // Question 1 - Am I married?
 
+function married() {
 let marriedGuess = prompt('Am I married?');
 let normalizedMarriedGuess = marriedGuess.toLowerCase();
 console.log(marriedGuess);
@@ -21,9 +27,13 @@ if( normalizedMarriedGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+married();
 
 // Question 2 - Do I have kids?
 
+function kids() {
 let kidsGuess = prompt('Do I have kids?');
 let normalizedKidsGuess = kidsGuess.toLowerCase();
 console.log(kidsGuess);
@@ -38,9 +48,13 @@ if( normalizedKidsGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+kids();
 
 // Question 3 - Do I have dogs?
 
+function dogs() {
 let dogGuess = prompt('Do I have dogs?');
 let normalizedDogGuess = dogGuess.toLowerCase();
 console.log(dogGuess);
@@ -55,9 +69,13 @@ if( normalizedDogGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+dogs();
 
 // Question 4 - Using switch statement - Do I like to cook?
 
+function cooking() {
 let cookingGuess = prompt('Do I like to cook?');
 cookingGuess = cookingGuess.toLowerCase();
 
@@ -83,10 +101,14 @@ default:
   alert('Wrong ' + name);
   break;
 }
+}
+
+cooking();
 
 // Question 5 - How old am I? - Using for loop (4 chances)
 //Correct age = 44
 
+function age() {
 for( let i = 1; i < 5; i++) {
   let age = prompt('How old do you think I am?');
   age = Number(age);
@@ -103,11 +125,15 @@ for( let i = 1; i < 5; i++) {
     alert('The correct answer is 44');
   }
 }
+}
+
+age();
 
 // Question 6 - Can you guess the name of one of my children? - Using while loop (6 chances)
 //Correct answers Colby or Carson
 //This one stumped me, got help from ChatGPT to make it work
 
+function guessKidsName() {
 let kidNames = ['Colby', 'Carson'];
 
 let guessedCorrectly = false;
@@ -130,6 +156,8 @@ while( ! guessedCorrectly && guessCount < maxGuesses) {
 if (!guessedCorrectly) {
   alert('You have reached the maximum number of guesses (6). The correct names were: Colby and Carson.');
 }
+}
 
+guessKidsName();
 
 
