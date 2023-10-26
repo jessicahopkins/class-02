@@ -1,9 +1,13 @@
 'use strict';
 // Ask for name
 
+function greeting() {
 let name = prompt('What is your name?');
 console.log(name);
 alert('Hello ' + name + ' welcome to my About Me page!');
+}
+
+greeting();
 
 // Question 1 - Am I married?
 
