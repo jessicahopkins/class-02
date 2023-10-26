@@ -133,6 +133,7 @@ age();
 //Correct answers Colby or Carson
 //This one stumped me, got help from ChatGPT to make it work
 
+function guessKidsName() {
 let kidNames = ['Colby', 'Carson'];
 
 let guessedCorrectly = false;
@@ -155,6 +156,8 @@ while( ! guessedCorrectly && guessCount < maxGuesses) {
 if (!guessedCorrectly) {
   alert('You have reached the maximum number of guesses (6). The correct names were: Colby and Carson.');
 }
+}
 
+guessKidsName();
 
 
