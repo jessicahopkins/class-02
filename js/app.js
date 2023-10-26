@@ -5,12 +5,14 @@ function greeting() {
 let name = prompt('What is your name?');
 console.log(name);
 alert('Hello ' + name + ' welcome to my About Me page!');
+
 }
 
 greeting();
 
 // Question 1 - Am I married?
 
+function married() {
 let marriedGuess = prompt('Am I married?');
 let normalizedMarriedGuess = marriedGuess.toLowerCase();
 console.log(marriedGuess);
@@ -25,6 +27,9 @@ if( normalizedMarriedGuess === 'yes' ) {
   console.log('Wrong');
   alert('Sorry that is the wrong answer!');
 }
+}
+
+married();
 
 // Question 2 - Do I have kids?
 
