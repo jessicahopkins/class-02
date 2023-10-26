@@ -108,6 +108,7 @@ cooking();
 // Question 5 - How old am I? - Using for loop (4 chances)
 //Correct age = 44
 
+function age() {
 for( let i = 1; i < 5; i++) {
   let age = prompt('How old do you think I am?');
   age = Number(age);
@@ -124,6 +125,9 @@ for( let i = 1; i < 5; i++) {
     alert('The correct answer is 44');
   }
 }
+}
+
+age();
 
 // Question 6 - Can you guess the name of one of my children? - Using while loop (6 chances)
 //Correct answers Colby or Carson
