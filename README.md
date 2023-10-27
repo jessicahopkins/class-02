@@ -35,3 +35,7 @@ Added additional questions and functionality, released on 10/25/23.  Created a s
 * I struggled with the while loop to ask the question about my kids names.  I had to get help from ChatGPT to get it functioning and working.  I was unable to complete the 4th requirement (provide user with final score).  Ran out of time to start researching that one.
 
 * I will also need to try and rename the repo to "About Me" at a later date.  Ran out of time for that too.
+
+* Lab 04 - Pair Programming - My partner was David.  Links to pull requests below.  
+  * [Navigator](https://github.com/jessicahopkins/class-02/pull/1)
+  * [Driver](https://github.com/TheSecurityLead/Class-201/pull/1)
