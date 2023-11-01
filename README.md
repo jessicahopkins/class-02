@@ -6,6 +6,7 @@ I built an app that tells the user about me.  It includes a short biography and 
 
 Added additional questions and functionality, released on 10/25/23.  Created a section about my work experience and education.  Also added a top 10 list of my top places to visit.  Enjoy the additional quiz questions, you will have a set number of times to guess.
 
+
 ### Author: Jessica Hopkins
 
 ### Links and Resources
@@ -27,6 +28,8 @@ Added additional questions and functionality, released on 10/25/23.  Created a s
 
 ![Lighthouse Accessibility Screenshot 10-25-23](/Lighthouse%202023-10-25_20-12-53.jpg)
 
+![Lighthouse Accessibility Screenshot 10-2531-23](/Lighthouse%202023-10-31_17-07-35.jpg)
+
 ### Reflections and Comments
 
 * I struggled a bit with the if statements and switch statement trying to make "yes" and "y" work correctly in the prompts.  It took me longer then I would have liked (finished outside of lab hours) but I was proud of myself for reviewing the lecture and demo in GitHub repo to figure it out.
@@ -36,6 +39,8 @@ Added additional questions and functionality, released on 10/25/23.  Created a s
 
 * I will also need to try and rename the repo to "About Me" at a later date.  Ran out of time for that too.
 
-* Lab 04 - Pair Programming - My partner was David.  Links to pull requests below.  
+* Lab 04 - Pair Programming - My partner was David.  Links to pull requests below.
   * [Navigator](https://github.com/jessicahopkins/class-02/pull/1)
   * [Driver](https://github.com/TheSecurityLead/Class-201/pull/1)
+
+*Lab 05b - Made a few styling updates/changes and also corrected guess by age logic as suggested.  Updated Lighthouse score-submiting for final grade of About Me page for lab 05b.

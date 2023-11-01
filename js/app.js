@@ -121,7 +121,8 @@ function age() {
       alert('Wrong, try again, a little lower next time!');
     } else if(age < 45){
       alert('Wrong, try again, a little higher next time!');
-    } if(i >= 4){
+    }
+    if(i >= 4){
       alert('The correct answer is 44');
     }
   }

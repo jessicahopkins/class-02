@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: honeydew;
+    background-color: white;
 }
 
 header {
@@ -15,6 +15,7 @@ header {
 header h1 {
     color: purple;
     font-size: 200%;
+    font-weight: bold;
 }
 
 main {
@@ -52,6 +53,7 @@ section div.aboutme {
 h2 {
     color: purple;
     font-size: 150%;
+    font-weight: bold;
     padding: 10pt;
 }
 
@@ -66,6 +68,7 @@ ul li {
 
 h3 {
   color: purple;
+  font-weight: bold;
   padding: 10pt;
 }
 
@@ -81,5 +84,6 @@ ol li {
 footer {
     background: #e36414;
     color: purple;
+    font-weight: bold;
     padding: 10pt;
 }
